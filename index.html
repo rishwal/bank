@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>State Bank Of India</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="main">
+      <header>
+        <img src="images/logo.png" alt="logo" />
+      </header>
+      <main>
+        <section id="left-section" class="main-sections">
+          <div id="left-div" class="section-div">
+            <h2>Deposit $</h2>
+            <img src="images/deposit.png" alt="deposit-img" /><br>
+            <input type="number"  id="deposit" placeholder="Enter amount here" required/>
+            <input type="button" value="Deposit" id="deposit-btn" />
+          </div>
+        </section>
+        <section id="balance-section">
+
+            <input type="button" value="Check Balance" id="balance-btn">
+            <h2 id="balance-message">
+                Balance:<p style="display: inline;" id="balance">0</p>
+            </h2>
+
+            <p id="message"></p>
+
+        </section>
+        <section id="right-section" class="main-sections">
+          <div id="right-div" class="section-div">
+            <h2>Withdraw $</h2>
+            <img src="images/withdraw.png" alt="withdraw-img" /><br>
+            <input type="number" name="withdraw" id="withdraw" placeholder="Enter amount here"/>
+            <input type="button" value="withdraw" id="withdraw-btn" />
+          </div>
+        </section>
+
+        
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
